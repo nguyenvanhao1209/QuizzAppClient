@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.HomeController">
+   <children>
+      <Label fx:id="usernameLabel" layoutX="517.0" layoutY="31.0" prefHeight="36.0" prefWidth="97.0" text="Username" textFill="#2bb413">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Pane layoutX="134.0" layoutY="116.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: green; -fx-background-radius: 30px;">
+         <children>
+            <ImageView fitHeight="78.0" fitWidth="86.0" layoutX="36.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/plus.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutX="416.0" layoutY="116.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: blue; -fx-background-radius: 30px;">
+         <children>
+            <ImageView fitHeight="78.0" fitWidth="86.0" layoutX="37.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/join.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutX="134.0" layoutY="340.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: blue; -fx-background-radius: 30px;">
+         <children>
+            <ImageView fitHeight="78.0" fitWidth="86.0" layoutX="36.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/calendar.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutX="416.0" layoutY="340.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: blue; -fx-background-radius: 30px;">
+         <children>
+            <ImageView fitHeight="78.0" fitWidth="86.0" layoutX="36.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/pencil.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Label layoutX="147.0" layoutY="269.0" text="Tạo phòng thi">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="269.0" text="Vào phòng thi">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="494.0" text="Xem lịch sử">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="447.0" layoutY="495.0" text="Luyện tập">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="48.0" fitWidth="53.0" layoutX="625.0" layoutY="25.0" onMouseClicked="#handleLogout" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/power-on.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
